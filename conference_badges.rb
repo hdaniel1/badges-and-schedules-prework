@@ -12,5 +12,9 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(speakers)
-
+  rooms = []
+  for i in 1..7
+    rooms.push("Hello, #{speakers}! You'll be assigned to room #{i}!")
+  end
+  return rooms
 end
