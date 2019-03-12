@@ -6,6 +6,6 @@ end
 def batch_badge_creator(array)
   new = []
   array.each do |name|
-    new.push(badge_maker(name))
+    new.push("Hello, my name is #{name}.")
   end
 end
